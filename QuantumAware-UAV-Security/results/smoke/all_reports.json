@@ -1,0 +1,2066 @@
+[
+  {
+    "scenario_id": "ffc26efc6601baca",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "none",
+      "intensity": "none",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.03460536197085387,
+      "mission_impact": 0.014315408015752725,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.17455965847740124
+    },
+    "crs": 0.3324386147305068,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014315408015752725,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.1733931648817981,
+      "temporal_graph": 0.17455965847740124,
+      "crs": 0.3324386147305068
+    },
+    "ablations": {
+      "attack_likelihood": 0.40689692792042004,
+      "mission_impact": 0.4119694164091953,
+      "inverse_detectability": 0.17203677378266863,
+      "crypto_cost_security": 0.29938160174646683,
+      "graph_vulnerability": 0.3719083537937832
+    },
+    "mean_node_vulnerability": 0.1777866132478461
+  },
+  {
+    "scenario_id": "b5990e15cd12af89",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "replay",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46869336197085393,
+      "mission_impact": 0.05999630509771798,
+      "inverse_detectability": 0.8926458909603959,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.18023652040581345
+    },
+    "crs": 0.4132477490202896,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.000671793564074602,
+    "comparators": {
+      "qos_only": 0.05999630509771798,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.18383263630251073,
+      "temporal_graph": 0.18023652040581345,
+      "crs": 0.4132477490202896
+    },
+    "ablations": {
+      "attack_likelihood": 0.39938634578264853,
+      "mission_impact": 0.5015606100009324,
+      "inverse_detectability": 0.293398213535263,
+      "crypto_cost_security": 0.40039301960869533,
+      "graph_vulnerability": 0.4715005561739086
+    },
+    "mean_node_vulnerability": 0.18512615305727415
+  },
+  {
+    "scenario_id": "9f798a8f4d8be2f0",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "sybil",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.38264064914926205,
+      "mission_impact": 0.006987854675698164,
+      "inverse_detectability": 0.9830195131380535,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.17585354539626946
+    },
+    "crs": 0.40263364580518995,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.006987854675698164,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.1356702163183825,
+      "temporal_graph": 0.17585354539626946,
+      "crs": 0.40263364580518995
+    },
+    "ablations": {
+      "attack_likelihood": 0.40763189496917196,
+      "mission_impact": 0.5015450935875629,
+      "inverse_detectability": 0.2575371789719741,
+      "crypto_cost_security": 0.3871253905898208,
+      "graph_vulnerability": 0.45932867090742013
+    },
+    "mean_node_vulnerability": 0.16859982359713369
+  },
+  {
+    "scenario_id": "7ff832d774cdb608",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "gps_spoofing",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3947522382519414,
+      "mission_impact": 0.023805520083962042,
+      "inverse_detectability": 0.973935821311044,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.18024934795665787
+    },
+    "crs": 0.4074819188540543,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.023805520083962042,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.18665855529289407,
+      "temporal_graph": 0.18024934795665787,
+      "crs": 0.4074819188540543
+    },
+    "ablations": {
+      "attack_likelihood": 0.4106643390045826,
+      "mission_impact": 0.5034010185465775,
+      "inverse_detectability": 0.26586844323980696,
+      "crypto_cost_security": 0.3931857319009013,
+      "graph_vulnerability": 0.46429006157840347
+    },
+    "mean_node_vulnerability": 0.19024531025128202
+  },
+  {
+    "scenario_id": "b09439aaee3fbdf7",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "dos",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.537489361970854,
+      "mission_impact": 0.10303727173841926,
+      "inverse_detectability": 0.7130774406000904,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.18571215680336575
+    },
+    "crs": 0.40079657955587916,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.13457510414829368,
+    "comparators": {
+      "qos_only": 0.10303727173841926,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.1938625266636519,
+      "temporal_graph": 0.18571215680336575,
+      "crs": 0.40079657955587916
+    },
+    "ablations": {
+      "attack_likelihood": 0.3666233839521355,
+      "mission_impact": 0.4752364065102442,
+      "inverse_detectability": 0.32272636429482643,
+      "crypto_cost_security": 0.3848290577781823,
+      "graph_vulnerability": 0.4545676852440076
+    },
+    "mean_node_vulnerability": 0.192326386032913
+  },
+  {
+    "scenario_id": "799ebc9e5b73f18b",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "key_compromise",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.4443445780598705,
+      "mission_impact": 0.04149984074971322,
+      "inverse_detectability": 0.8727858024492596,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.19278205257013553
+    },
+    "crs": 0.40321578809912906,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.04149984074971322,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.24301280159710195,
+      "temporal_graph": 0.19278205257013553,
+      "crs": 0.40321578809912906
+    },
+    "ablations": {
+      "attack_likelihood": 0.3929335906089438,
+      "mission_impact": 0.49364477493648307,
+      "inverse_detectability": 0.2858232845115965,
+      "crypto_cost_security": 0.38785306845724477,
+      "graph_vulnerability": 0.4558242219813775
+    },
+    "mean_node_vulnerability": 0.19964015489556733
+  },
+  {
+    "scenario_id": "9b07764d8cd96b66",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "auth_forgery",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.469245361970854,
+      "mission_impact": 0.056159850210348985,
+      "inverse_detectability": 0.8312844959309539,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.19450366953911574
+    },
+    "crs": 0.4031720088635879,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.060457457089470146,
+    "comparators": {
+      "qos_only": 0.056159850210348985,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.23513543451261124,
+      "temporal_graph": 0.19450366953911574,
+      "crs": 0.4031720088635879
+    },
+    "ablations": {
+      "attack_likelihood": 0.38665367058677136,
+      "mission_impact": 0.48992504852689756,
+      "inverse_detectability": 0.2961438870967463,
+      "crypto_cost_security": 0.38779834441281813,
+      "graph_vulnerability": 0.4553390936947058
+    },
+    "mean_node_vulnerability": 0.20967865031530042
+  },
+  {
+    "scenario_id": "3c5848049164d7a0",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "combined_compromise",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.5005045780598705,
+      "mission_impact": 0.07662654920043445,
+      "inverse_detectability": 0.7791858024492595,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.1972079717700147
+    },
+    "crs": 0.4036383136292492,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.0961697938975305,
+    "comparators": {
+      "qos_only": 0.07662654920043445,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.2552875653820995,
+      "temporal_graph": 0.1972079717700147,
+      "crs": 0.4036383136292492
+    },
+    "ablations": {
+      "attack_likelihood": 0.37942174752159386,
+      "mission_impact": 0.48539125473645284,
+      "inverse_detectability": 0.3097514414242466,
+      "crypto_cost_security": 0.38838122536989483,
+      "graph_vulnerability": 0.45524589909405777
+    },
+    "mean_node_vulnerability": 0.21032574883024024
+  },
+  {
+    "scenario_id": "ec8948acee1ea408",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "none",
+      "intensity": "none",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.03460536197085387,
+      "mission_impact": 0.014320684002533354,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.17455978724143284
+    },
+    "crs": 0.25340636234733593,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014320684002533354,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.17338615204598593,
+      "temporal_graph": 0.17455978724143284,
+      "crs": 0.25340636234733593
+    },
+    "ablations": {
+      "attack_likelihood": 0.30810661244145643,
+      "mission_impact": 0.31317778193353657,
+      "inverse_detectability": 0.07324645830370502,
+      "crypto_cost_security": 0.2993829529341699,
+      "graph_vulnerability": 0.27311800612381165
+    },
+    "mean_node_vulnerability": 0.17786439097277543
+  },
+  {
+    "scenario_id": "092ace4381e51d1d",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "replay",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46869336197085393,
+      "mission_impact": 0.0600015810844986,
+      "inverse_detectability": 0.8926458909603959,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.1802366491698451
+    },
+    "crs": 0.33421549663711875,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.000671793564074602,
+    "comparators": {
+      "qos_only": 0.0600015810844986,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.1838256234666986,
+      "temporal_graph": 0.1802366491698451,
+      "crs": 0.33421549663711875
+    },
+    "ablations": {
+      "attack_likelihood": 0.30059603030368487,
+      "mission_impact": 0.4027689755252737,
+      "inverse_detectability": 0.1946078980562994,
+      "crypto_cost_security": 0.40039437079639834,
+      "graph_vulnerability": 0.37271020850393705
+    },
+    "mean_node_vulnerability": 0.18520393078220349
+  },
+  {
+    "scenario_id": "2476eeab1499a563",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "sybil",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.38264064914926205,
+      "mission_impact": 0.006993130662478791,
+      "inverse_detectability": 0.9830195131380535,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.17585300394650488
+    },
+    "crs": 0.3236012593792599,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.006993130662478791,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.1356702163183825,
+      "temporal_graph": 0.17585300394650488,
+      "crs": 0.3236012593792599
+    },
+    "ablations": {
+      "attack_likelihood": 0.3088414119367593,
+      "mission_impact": 0.4027532915584551,
+      "inverse_detectability": 0.15874669593956142,
+      "crypto_cost_security": 0.3871265742240748,
+      "graph_vulnerability": 0.36053832323744855
+    },
+    "mean_node_vulnerability": 0.16869741655644116
+  },
+  {
+    "scenario_id": "dcbf4049fb705bf6",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "gps_spoofing",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3947522382519414,
+      "mission_impact": 0.02363985189771207,
+      "inverse_detectability": 0.973935821311044,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.1801296395139835
+    },
+    "crs": 0.3283915101949362,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.02363985189771207,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.1863343922723135,
+      "temporal_graph": 0.1801296395139835,
+      "crs": 0.3283915101949362
+    },
+    "ablations": {
+      "attack_likelihood": 0.3118013281806849,
+      "mission_impact": 0.4045794247692422,
+      "inverse_detectability": 0.16700543241590923,
+      "crypto_cost_security": 0.39311438774367025,
+      "graph_vulnerability": 0.36545697786517434
+    },
+    "mean_node_vulnerability": 0.19010281107999596
+  },
+  {
+    "scenario_id": "e5b621e07e5992b1",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "dos",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.537489361970854,
+      "mission_impact": 0.10303179893663207,
+      "inverse_detectability": 0.7130774406000904,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.18570636406133775
+    },
+    "crs": 0.32176099311378287,
+    "risk_category": "Low",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.13457510414829368,
+    "comparators": {
+      "qos_only": 0.10303179893663207,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.19385551382783972,
+      "temporal_graph": 0.18570636406133775,
+      "crs": 0.32176099311378287
+    },
+    "ablations": {
+      "attack_likelihood": 0.26782890089951505,
+      "mission_impact": 0.3764432916580705,
+      "inverse_detectability": 0.22393188124220595,
+      "crypto_cost_security": 0.38482624139222854,
+      "graph_vulnerability": 0.3557746503768941
+    },
+    "mean_node_vulnerability": 0.1924041637578423
+  },
+  {
+    "scenario_id": "a7cc7f474819cb1a",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "key_compromise",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3946053619708539,
+      "mission_impact": 0.014320684002533354,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.17455978724143284
+    },
+    "crs": 0.325406362347336,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014320684002533354,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.17338615204598593,
+      "temporal_graph": 0.17455978724143284,
+      "crs": 0.325406362347336
+    },
+    "ablations": {
+      "attack_likelihood": 0.30810661244145643,
+      "mission_impact": 0.40317778193353654,
+      "inverse_detectability": 0.16324645830370502,
+      "crypto_cost_security": 0.3893829529341699,
+      "graph_vulnerability": 0.3631180061238117
+    },
+    "mean_node_vulnerability": 0.17786439097277543
+  },
+  {
+    "scenario_id": "99b806e10afdc64a",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "auth_forgery",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3946053619708539,
+      "mission_impact": 0.014320684002533354,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.17455978724143284
+    },
+    "crs": 0.325406362347336,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014320684002533354,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.17338615204598593,
+      "temporal_graph": 0.17455978724143284,
+      "crs": 0.325406362347336
+    },
+    "ablations": {
+      "attack_likelihood": 0.30810661244145643,
+      "mission_impact": 0.40317778193353654,
+      "inverse_detectability": 0.16324645830370502,
+      "crypto_cost_security": 0.3893829529341699,
+      "graph_vulnerability": 0.3631180061238117
+    },
+    "mean_node_vulnerability": 0.17786439097277543
+  },
+  {
+    "scenario_id": "7c901ebc89be140e",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "combined_compromise",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3946053619708539,
+      "mission_impact": 0.014320684002533354,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.17455978724143284
+    },
+    "crs": 0.325406362347336,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014320684002533354,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.17338615204598593,
+      "temporal_graph": 0.17455978724143284,
+      "crs": 0.325406362347336
+    },
+    "ablations": {
+      "attack_likelihood": 0.30810661244145643,
+      "mission_impact": 0.40317778193353654,
+      "inverse_detectability": 0.16324645830370502,
+      "crypto_cost_security": 0.3893829529341699,
+      "graph_vulnerability": 0.3631180061238117
+    },
+    "mean_node_vulnerability": 0.17786439097277543
+  },
+  {
+    "scenario_id": "3ce86a0361c7f637",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "none",
+      "intensity": "none",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.03460536197085387,
+      "mission_impact": 0.014447553091536204,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.17464698546706772
+    },
+    "crs": 0.2513491758102635,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014447553091536204,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.17337912126084484,
+      "temporal_graph": 0.17464698546706772,
+      "crs": 0.2513491758102635
+    },
+    "ablations": {
+      "attack_likelihood": 0.3055351292701159,
+      "mission_impact": 0.3105745814899453,
+      "inverse_detectability": 0.07067497513236445,
+      "crypto_cost_security": 0.2994364697628294,
+      "graph_vulnerability": 0.2705247233960624
+    },
+    "mean_node_vulnerability": 0.1779623610968445
+  },
+  {
+    "scenario_id": "45ae3c63fe519e3a",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "replay",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46869336197085393,
+      "mission_impact": 0.06012845017350145,
+      "inverse_detectability": 0.8926458909603959,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.18032384739548
+    },
+    "crs": 0.33215831010004626,
+    "risk_category": "Low",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.000671793564074602,
+    "comparators": {
+      "qos_only": 0.06012845017350145,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.1838185926815575,
+      "temporal_graph": 0.18032384739548,
+      "crs": 0.33215831010004626
+    },
+    "ablations": {
+      "attack_likelihood": 0.29802454713234433,
+      "mission_impact": 0.40016577508168244,
+      "inverse_detectability": 0.19203641488495887,
+      "crypto_cost_security": 0.40044788762505784,
+      "graph_vulnerability": 0.3701169257761878
+    },
+    "mean_node_vulnerability": 0.1853019009062726
+  },
+  {
+    "scenario_id": "deb2362e5e75d787",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "sybil",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.38264064914926205,
+      "mission_impact": 0.007119999751481639,
+      "inverse_detectability": 0.9830195131380535,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.17593952688977113
+    },
+    "crs": 0.3215439377857137,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.007119999751481639,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.1356702163183825,
+      "temporal_graph": 0.17593952688977113,
+      "crs": 0.3215439377857137
+    },
+    "ablations": {
+      "attack_likelihood": 0.3062697599448266,
+      "mission_impact": 0.40014992229427165,
+      "inverse_detectability": 0.1561750439476287,
+      "crypto_cost_security": 0.3871799222321421,
+      "graph_vulnerability": 0.3579450405096993
+    },
+    "mean_node_vulnerability": 0.16881523761051664
+  },
+  {
+    "scenario_id": "23dd2e10b69119e8",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "gps_spoofing",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3947522382519414,
+      "mission_impact": 0.02359586211784388,
+      "inverse_detectability": 0.973935821311044,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1800970800610686
+    },
+    "crs": 0.32627620034837956,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.02359586211784388,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.18601034702963493,
+      "temporal_graph": 0.1800970800610686,
+      "crs": 0.32627620034837956
+    },
+    "ablations": {
+      "attack_likelihood": 0.3091571908724891,
+      "mission_impact": 0.4019462849060135,
+      "inverse_detectability": 0.16436129510771347,
+      "crypto_cost_security": 0.39309525043547444,
+      "graph_vulnerability": 0.3628209804202073
+    },
+    "mean_node_vulnerability": 0.18998066052040094
+  },
+  {
+    "scenario_id": "8898c6ea3e61df61",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "dos",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.537489361970854,
+      "mission_impact": 0.10315866802563492,
+      "inverse_detectability": 0.7130774406000904,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.18579356228697266
+    },
+    "crs": 0.31970380657671044,
+    "risk_category": "Low",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.13457510414829368,
+    "comparators": {
+      "qos_only": 0.10315866802563492,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.19384848304269864,
+      "temporal_graph": 0.18579356228697266,
+      "crs": 0.31970380657671044
+    },
+    "ablations": {
+      "attack_likelihood": 0.2652574177281745,
+      "mission_impact": 0.37384009121447925,
+      "inverse_detectability": 0.22136039807086538,
+      "crypto_cost_security": 0.384879758220888,
+      "graph_vulnerability": 0.3531813676491448
+    },
+    "mean_node_vulnerability": 0.19250213388191142
+  },
+  {
+    "scenario_id": "f0629cf4892684d1",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "key_compromise",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3946053619708539,
+      "mission_impact": 0.014447553091536204,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.17464698546706772
+    },
+    "crs": 0.3233491758102635,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014447553091536204,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.17337912126084484,
+      "temporal_graph": 0.17464698546706772,
+      "crs": 0.3233491758102635
+    },
+    "ablations": {
+      "attack_likelihood": 0.3055351292701159,
+      "mission_impact": 0.4005745814899453,
+      "inverse_detectability": 0.16067497513236445,
+      "crypto_cost_security": 0.38943646976282936,
+      "graph_vulnerability": 0.3605247233960624
+    },
+    "mean_node_vulnerability": 0.1779623610968445
+  },
+  {
+    "scenario_id": "a1442b6832463a2c",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "auth_forgery",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3946053619708539,
+      "mission_impact": 0.014447553091536204,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.17464698546706772
+    },
+    "crs": 0.3233491758102635,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014447553091536204,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.17337912126084484,
+      "temporal_graph": 0.17464698546706772,
+      "crs": 0.3233491758102635
+    },
+    "ablations": {
+      "attack_likelihood": 0.3055351292701159,
+      "mission_impact": 0.4005745814899453,
+      "inverse_detectability": 0.16067497513236445,
+      "crypto_cost_security": 0.38943646976282936,
+      "graph_vulnerability": 0.3605247233960624
+    },
+    "mean_node_vulnerability": 0.1779623610968445
+  },
+  {
+    "scenario_id": "98f57bc475ff117f",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "combined_compromise",
+      "intensity": "high",
+      "seed": 101,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3946053619708539,
+      "mission_impact": 0.014447553091536204,
+      "inverse_detectability": 0.9740459785218596,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.17464698546706772
+    },
+    "crs": 0.3233491758102635,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.014447553091536204,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.17337912126084484,
+      "temporal_graph": 0.17464698546706772,
+      "crs": 0.3233491758102635
+    },
+    "ablations": {
+      "attack_likelihood": 0.3055351292701159,
+      "mission_impact": 0.4005745814899453,
+      "inverse_detectability": 0.16067497513236445,
+      "crypto_cost_security": 0.38943646976282936,
+      "graph_vulnerability": 0.3605247233960624
+    },
+    "mean_node_vulnerability": 0.1779623610968445
+  },
+  {
+    "scenario_id": "43abda541bf301aa",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "none",
+      "intensity": "none",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.024616145889761572,
+      "mission_impact": 0.008812566075005126,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.16103529204521552
+    },
+    "crs": 0.32813371225186555,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008812566075005126,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.16961063116599875,
+      "temporal_graph": 0.16103529204521552,
+      "crs": 0.32813371225186555
+    },
+    "ablations": {
+      "attack_likelihood": 0.40401310384239153,
+      "mission_impact": 0.4079639987960807,
+      "inverse_detectability": 0.16478266766916222,
+      "crypto_cost_security": 0.2940004736481653,
+      "graph_vulnerability": 0.369908317303528
+    },
+    "mean_node_vulnerability": 0.16224075817546618
+  },
+  {
+    "scenario_id": "59eebddf4c17d5d0",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "replay",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46021614588976156,
+      "mission_impact": 0.05576661470985081,
+      "inverse_detectability": 0.9072588013062095,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.16693102393720566
+    },
+    "crs": 0.41096785050193885,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.05576661470985081,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.18022909979622376,
+      "temporal_graph": 0.16693102393720566,
+      "crs": 0.41096785050193885
+    },
+    "ablations": {
+      "attack_likelihood": 0.39865577665498314,
+      "mission_impact": 0.49976815944996084,
+      "inverse_detectability": 0.28689511280087115,
+      "crypto_cost_security": 0.3975431464607569,
+      "graph_vulnerability": 0.4719770571431221
+    },
+    "mean_node_vulnerability": 0.16962784328339647
+  },
+  {
+    "scenario_id": "d3165b06b60d1a16",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "sybil",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3962161337539657,
+      "mission_impact": 0.016149423333123487,
+      "inverse_detectability": 0.9728378996845257,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.1645798285180746
+    },
+    "crs": 0.40288999039127127,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.016149423333123487,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.17057398870862484,
+      "temporal_graph": 0.1645798285180746,
+      "crs": 0.40288999039127127
+    },
+    "ablations": {
+      "attack_likelihood": 0.40455845455059763,
+      "mission_impact": 0.4995751321558081,
+      "inverse_detectability": 0.2604030130679576,
+      "crypto_cost_security": 0.3874458213224224,
+      "graph_vulnerability": 0.4624675308595704
+    },
+    "mean_node_vulnerability": 0.1659346163604107
+  },
+  {
+    "scenario_id": "8869b26fcb342e9e",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "gps_spoofing",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.38532803841933866,
+      "mission_impact": 0.019527551337618965,
+      "inverse_detectability": 0.9810039711854961,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.16506806777689065
+    },
+    "crs": 0.4031188590772022,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.019527551337618965,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.19669237291049826,
+      "temporal_graph": 0.16506806777689065,
+      "crs": 0.4031188590772022
+    },
+    "ablations": {
+      "attack_likelihood": 0.40756656424166804,
+      "mission_impact": 0.49901668601209803,
+      "inverse_detectability": 0.25864758105012875,
+      "crypto_cost_security": 0.3877319071798361,
+      "graph_vulnerability": 0.4626315569022801
+    },
+    "mean_node_vulnerability": 0.17661360228419526
+  },
+  {
+    "scenario_id": "f96f93b9d7b9b249",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "dos",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.5304161458897616,
+      "mission_impact": 0.10000512832628095,
+      "inverse_detectability": 0.7254813876690905,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.17274570411942414
+    },
+    "crs": 0.39866300653424475,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.13567598570086625,
+    "comparators": {
+      "qos_only": 0.10000512832628095,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.19072487404522848,
+      "temporal_graph": 0.17274570411942414,
+      "crs": 0.39866300653424475
+    },
+    "ablations": {
+      "attack_likelihood": 0.3657247216953655,
+      "mission_impact": 0.4733274760862357,
+      "inverse_detectability": 0.31695841125053337,
+      "crypto_cost_security": 0.38216209150113933,
+      "graph_vulnerability": 0.45514233213794997
+    },
+    "mean_node_vulnerability": 0.1768081323893885
+  },
+  {
+    "scenario_id": "e46ddeba4d192b37",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "key_compromise",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3983815524466778,
+      "mission_impact": 0.013338314810547347,
+      "inverse_detectability": 0.9712138356649918,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.1722626991078137
+    },
+    "crs": 0.40397261373933946,
+    "risk_category": "Medium",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.013338314810547347,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.19085392529994508,
+      "temporal_graph": 0.1722626991078137,
+      "crs": 0.40397261373933946
+    },
+    "ablations": {
+      "attack_likelihood": 0.4053703790625049,
+      "mission_impact": 0.5016311884715375,
+      "inverse_detectability": 0.2621623082579264,
+      "crypto_cost_security": 0.38879910050750766,
+      "graph_vulnerability": 0.46190009239722085
+    },
+    "mean_node_vulnerability": 0.204529738618855
+  },
+  {
+    "scenario_id": "eeb92cada22d9bd0",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "auth_forgery",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.4614161458897617,
+      "mission_impact": 0.05239925373780522,
+      "inverse_detectability": 0.8463454722044363,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.18057569195294076
+    },
+    "crs": 0.4010806460903221,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.06155833864204272,
+    "comparators": {
+      "qos_only": 0.05239925373780522,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.22802060279321779,
+      "temporal_graph": 0.18057569195294076,
+      "crs": 0.4010806460903221
+    },
+    "ablations": {
+      "attack_likelihood": 0.38599677114046227,
+      "mission_impact": 0.4882509941784514,
+      "inverse_detectability": 0.2897644395617936,
+      "crypto_cost_security": 0.385184140946236,
+      "graph_vulnerability": 0.4562068846246675
+    },
+    "mean_node_vulnerability": 0.1949295388848588
+  },
+  {
+    "scenario_id": "665b3f01e5906f4d",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "classical",
+      "threat": "combined_compromise",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46318155244667775,
+      "mission_impact": 0.053803480906513004,
+      "inverse_detectability": 0.8434031279429096,
+      "crypto_cost_security": 0.4646666666666667,
+      "graph_vulnerability": 0.17735906440565385
+    },
+    "crs": 0.4004827784736842,
+    "risk_category": "Medium",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.0715721339188179,
+    "comparators": {
+      "qos_only": 0.053803480906513004,
+      "cryptographic_only": 0.4646666666666667,
+      "static_graph": 0.20619541133121788,
+      "temporal_graph": 0.17735906440565385,
+      "crs": 0.4004827784736842
+    },
+    "ablations": {
+      "attack_likelihood": 0.3848080849804357,
+      "mission_impact": 0.4871526028654769,
+      "inverse_detectability": 0.2897526911063778,
+      "crypto_cost_security": 0.38443680642543854,
+      "graph_vulnerability": 0.45626370699069174
+    },
+    "mean_node_vulnerability": 0.21561401930868965
+  },
+  {
+    "scenario_id": "817352ef68344672",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "none",
+      "intensity": "none",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.024616145889761572,
+      "mission_impact": 0.008869048010692483,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16109571460702782
+    },
+    "crs": 0.24912375981803214,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008869048010692483,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.16936032258979516,
+      "temporal_graph": 0.16109571460702782,
+      "crs": 0.24912375981803214
+    },
+    "ablations": {
+      "attack_likelihood": 0.30525066330009976,
+      "mission_impact": 0.309187437769867,
+      "inverse_detectability": 0.06602022712687047,
+      "crypto_cost_security": 0.2940296997725402,
+      "graph_vulnerability": 0.2711307711207832
+    },
+    "mean_node_vulnerability": 0.16238855745877603
+  },
+  {
+    "scenario_id": "0e9cdf03ee67714a",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "replay",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46021614588976156,
+      "mission_impact": 0.05582309664553817,
+      "inverse_detectability": 0.9072588013062095,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16699144649901798
+    },
+    "crs": 0.3319578980681055,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.05582309664553817,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.17997879122002014,
+      "temporal_graph": 0.16699144649901798,
+      "crs": 0.3319578980681055
+    },
+    "ablations": {
+      "attack_likelihood": 0.2998933361126914,
+      "mission_impact": 0.4009915984237472,
+      "inverse_detectability": 0.18813267225857944,
+      "crypto_cost_security": 0.3975723725851318,
+      "graph_vulnerability": 0.3731995109603773
+    },
+    "mean_node_vulnerability": 0.1697756425667064
+  },
+  {
+    "scenario_id": "7e55d4d97e6086ec",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "sybil",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3962161337539657,
+      "mission_impact": 0.016198781341694668,
+      "inverse_detectability": 0.9728378996845257,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16463736968093834
+    },
+    "crs": 0.32387803689222494,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.016198781341694668,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.17032591919393952,
+      "temporal_graph": 0.16463736968093834,
+      "crs": 0.32387803689222494
+    },
+    "ablations": {
+      "attack_likelihood": 0.30579351267678967,
+      "mission_impact": 0.4007978507798574,
+      "inverse_detectability": 0.1616380711941497,
+      "crypto_cost_security": 0.38747254611528115,
+      "graph_vulnerability": 0.3636882036950465
+    },
+    "mean_node_vulnerability": 0.16606002920383023
+  },
+  {
+    "scenario_id": "fb58f05186eb0c11",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "gps_spoofing",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.38532803841933866,
+      "mission_impact": 0.01954101769419901,
+      "inverse_detectability": 0.9810039711854961,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16507883600406334
+    },
+    "crs": 0.32409037266061946,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.01954101769419901,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.196371994546585,
+      "temporal_graph": 0.16507883600406334,
+      "crs": 0.32409037266061946
+    },
+    "ablations": {
+      "attack_likelihood": 0.3087809562209396,
+      "mission_impact": 0.4002277114022245,
+      "inverse_detectability": 0.15986197302940025,
+      "crypto_cost_security": 0.3877379658257743,
+      "graph_vulnerability": 0.36384325682475843
+    },
+    "mean_node_vulnerability": 0.176513974344085
+  },
+  {
+    "scenario_id": "261e54f70edd29cc",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "dos",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.5304161458897616,
+      "mission_impact": 0.10002697246519718,
+      "inverse_detectability": 0.7254813876690905,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.17276570524900436
+    },
+    "crs": 0.3196380422546108,
+    "risk_category": "Low",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.13567598570086625,
+    "comparators": {
+      "qos_only": 0.10002697246519718,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.1904338410187004,
+      "temporal_graph": 0.17276570524900436,
+      "crs": 0.3196380422546108
+    },
+    "ablations": {
+      "attack_likelihood": 0.26694351634582303,
+      "mission_impact": 0.37454080970196413,
+      "inverse_detectability": 0.2181772059009908,
+      "crypto_cost_security": 0.3821725528182634,
+      "graph_vulnerability": 0.3563561265060123
+    },
+    "mean_node_vulnerability": 0.1769204818038588
+  },
+  {
+    "scenario_id": "ae46e544902edc3f",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "key_compromise",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3846161458897616,
+      "mission_impact": 0.008869048010692483,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16109571460702782
+    },
+    "crs": 0.32112375981803215,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008869048010692483,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.16936032258979516,
+      "temporal_graph": 0.16109571460702782,
+      "crs": 0.32112375981803215
+    },
+    "ablations": {
+      "attack_likelihood": 0.30525066330009976,
+      "mission_impact": 0.39918743776986704,
+      "inverse_detectability": 0.15602022712687047,
+      "crypto_cost_security": 0.3840296997725402,
+      "graph_vulnerability": 0.36113077112078323
+    },
+    "mean_node_vulnerability": 0.16238855745877603
+  },
+  {
+    "scenario_id": "a475ceacd8c4d609",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "auth_forgery",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3846161458897616,
+      "mission_impact": 0.008869048010692483,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16109571460702782
+    },
+    "crs": 0.32112375981803215,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008869048010692483,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.16936032258979516,
+      "temporal_graph": 0.16109571460702782,
+      "crs": 0.32112375981803215
+    },
+    "ablations": {
+      "attack_likelihood": 0.30525066330009976,
+      "mission_impact": 0.39918743776986704,
+      "inverse_detectability": 0.15602022712687047,
+      "crypto_cost_security": 0.3840296997725402,
+      "graph_vulnerability": 0.36113077112078323
+    },
+    "mean_node_vulnerability": 0.16238855745877603
+  },
+  {
+    "scenario_id": "69a396f3e2c9b6a4",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "pqc",
+      "threat": "combined_compromise",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3846161458897616,
+      "mission_impact": 0.008869048010692483,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.06949999999999999,
+      "graph_vulnerability": 0.16109571460702782
+    },
+    "crs": 0.32112375981803215,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008869048010692483,
+      "cryptographic_only": 0.06949999999999999,
+      "static_graph": 0.16936032258979516,
+      "temporal_graph": 0.16109571460702782,
+      "crs": 0.32112375981803215
+    },
+    "ablations": {
+      "attack_likelihood": 0.30525066330009976,
+      "mission_impact": 0.39918743776986704,
+      "inverse_detectability": 0.15602022712687047,
+      "crypto_cost_security": 0.3840296997725402,
+      "graph_vulnerability": 0.36113077112078323
+    },
+    "mean_node_vulnerability": 0.16238855745877603
+  },
+  {
+    "scenario_id": "5e204047ceb4477c",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "none",
+      "intensity": "none",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.024616145889761572,
+      "mission_impact": 0.008928826717054104,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1611578379586199
+    },
+    "crs": 0.2470481402296229,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008928826717054104,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.16912626375507456,
+      "temporal_graph": 0.1611578379586199,
+      "crs": 0.2470481402296229
+    },
+    "ablations": {
+      "attack_likelihood": 0.3026561388145882,
+      "mission_impact": 0.30657796860776504,
+      "inverse_detectability": 0.0634257026413589,
+      "crypto_cost_security": 0.2940601752870286,
+      "graph_vulnerability": 0.26852071579737363
+    },
+    "mean_node_vulnerability": 0.16253623657858493
+  },
+  {
+    "scenario_id": "5ab43129daa6dab9",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "replay",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.46021614588976156,
+      "mission_impact": 0.05587940003763579,
+      "inverse_detectability": 0.9072588013062095,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1670517382660655
+    },
+    "crs": 0.3298812170999345,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.05587940003763579,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.17972824812439867,
+      "temporal_graph": 0.1670517382660655,
+      "crs": 0.3298812170999345
+    },
+    "ablations": {
+      "attack_likelihood": 0.2972974849024777,
+      "mission_impact": 0.3983816713655091,
+      "inverse_detectability": 0.18553682104836572,
+      "crypto_cost_security": 0.3976015213749181,
+      "graph_vulnerability": 0.37058858680840173
+    },
+    "mean_node_vulnerability": 0.16992332168651528
+  },
+  {
+    "scenario_id": "9a2e41b3fecd0c86",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "sybil",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3962161337539657,
+      "mission_impact": 0.016251400412222165,
+      "inverse_detectability": 0.9728378996845257,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.16469656442257075
+    },
+    "crs": 0.3218003996546569,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.016251400412222165,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.17009390587640516,
+      "temporal_graph": 0.16469656442257075,
+      "crs": 0.3218003996546569
+    },
+    "ablations": {
+      "attack_likelihood": 0.30319646612982964,
+      "mission_impact": 0.3981876494652655,
+      "inverse_detectability": 0.15904102464718967,
+      "crypto_cost_security": 0.3875004995683211,
+      "graph_vulnerability": 0.3610763584626784
+    },
+    "mean_node_vulnerability": 0.16618526180199822
+  },
+  {
+    "scenario_id": "7d08735df5ac668a",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "gps_spoofing",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.38532803841933866,
+      "mission_impact": 0.01955421623539444,
+      "inverse_detectability": 0.9810039711854961,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.16508940863101473
+    },
+    "crs": 0.32199512689424886,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.01955421623539444,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.19605114872309132,
+      "temporal_graph": 0.16508940863101473,
+      "crs": 0.32199512689424886
+    },
+    "ablations": {
+      "attack_likelihood": 0.3061618990129763,
+      "mission_impact": 0.3976053545589624,
+      "inverse_detectability": 0.15724291582143696,
+      "crypto_cost_security": 0.38774390861781094,
+      "graph_vulnerability": 0.36122155646005727
+    },
+    "mean_node_vulnerability": 0.17641414848762016
+  },
+  {
+    "scenario_id": "8e4e5c657d480e92",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "dos",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.5304161458897616,
+      "mission_impact": 0.1000832758572948,
+      "inverse_detectability": 0.7254813876690905,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1728195539941513
+    },
+    "crs": 0.31756007268205966,
+    "risk_category": "Low",
+    "future_mission_failure": 1,
+    "future_disruption_severity": 0.13567598570086625,
+    "comparators": {
+      "qos_only": 0.1000832758572948,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.19018329792307886,
+      "temporal_graph": 0.1728195539941513,
+      "crs": 0.31756007268205966
+    },
+    "ablations": {
+      "attack_likelihood": 0.2643460543801342,
+      "mission_impact": 0.37192927188825087,
+      "inverse_detectability": 0.21557974393530194,
+      "crypto_cost_security": 0.38220009085257456,
+      "graph_vulnerability": 0.3537452023540367
+    },
+    "mean_node_vulnerability": 0.1770607018759949
+  },
+  {
+    "scenario_id": "f1863bf1956735cc",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "key_compromise",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3846161458897616,
+      "mission_impact": 0.008928826717054104,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1611578379586199
+    },
+    "crs": 0.3190481402296229,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008928826717054104,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.16912626375507456,
+      "temporal_graph": 0.1611578379586199,
+      "crs": 0.3190481402296229
+    },
+    "ablations": {
+      "attack_likelihood": 0.3026561388145882,
+      "mission_impact": 0.39657796860776506,
+      "inverse_detectability": 0.1534257026413589,
+      "crypto_cost_security": 0.38406017528702857,
+      "graph_vulnerability": 0.3585207157973736
+    },
+    "mean_node_vulnerability": 0.16253623657858493
+  },
+  {
+    "scenario_id": "b1a97e0401d01b2e",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "auth_forgery",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3846161458897616,
+      "mission_impact": 0.008928826717054104,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1611578379586199
+    },
+    "crs": 0.3190481402296229,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008928826717054104,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.16912626375507456,
+      "temporal_graph": 0.1611578379586199,
+      "crs": 0.3190481402296229
+    },
+    "ablations": {
+      "attack_likelihood": 0.3026561388145882,
+      "mission_impact": 0.39657796860776506,
+      "inverse_detectability": 0.1534257026413589,
+      "crypto_cost_security": 0.38406017528702857,
+      "graph_vulnerability": 0.3585207157973736
+    },
+    "mean_node_vulnerability": 0.16253623657858493
+  },
+  {
+    "scenario_id": "e987e09a5b88b844",
+    "scenario": {
+      "topology": "mesh",
+      "mobility": "random_waypoint",
+      "traffic": "telemetry",
+      "crypto": "hybrid",
+      "threat": "combined_compromise",
+      "intensity": "high",
+      "seed": 102,
+      "swarm_size": 10,
+      "routing": "aodv"
+    },
+    "backend": "analytical",
+    "observation_time_s": 100,
+    "outcome_horizon_seconds": 30,
+    "components": {
+      "attack_likelihood": 0.3846161458897616,
+      "mission_impact": 0.008928826717054104,
+      "inverse_detectability": 0.9815378905826788,
+      "crypto_cost_security": 0.059000000000000025,
+      "graph_vulnerability": 0.1611578379586199
+    },
+    "crs": 0.3190481402296229,
+    "risk_category": "Low",
+    "future_mission_failure": 0,
+    "future_disruption_severity": 0.0,
+    "comparators": {
+      "qos_only": 0.008928826717054104,
+      "cryptographic_only": 0.059000000000000025,
+      "static_graph": 0.16912626375507456,
+      "temporal_graph": 0.1611578379586199,
+      "crs": 0.3190481402296229
+    },
+    "ablations": {
+      "attack_likelihood": 0.3026561388145882,
+      "mission_impact": 0.39657796860776506,
+      "inverse_detectability": 0.1534257026413589,
+      "crypto_cost_security": 0.38406017528702857,
+      "graph_vulnerability": 0.3585207157973736
+    },
+    "mean_node_vulnerability": 0.16253623657858493
+  }
+]

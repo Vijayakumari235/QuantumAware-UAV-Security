@@ -1,0 +1,49 @@
+# Baseline research configuration; 17,820 configs per swarm size for a full factorial experiment.
+seed: 101
+swarm_size: 10
+routing: aodv
+simulation_seconds: 300
+snapshot_seconds: 10
+warmup_seconds: 20
+observation_seconds: 100
+outcome_horizon_seconds: 30
+area_m: 1000
+altitude_min_m: 50
+altitude_max_m: 150
+speed_min_mps: 5
+speed_max_mps: 25
+radio_range_m: 600
+bitrate_bps: 6500000
+base_latency_ms: 6
+transmit_power_dbm: 20
+baseline_packet_loss: 0.005
+thresholds:
+  min_pdr: 0.85
+  max_latency_ms: 250
+  min_throughput_bps: 1000
+  min_connected_fraction: 0.7
+normalization:
+  latency_ms: 500
+  energy_mj: 500
+  message_expansion: 5
+  max_ttd_seconds: 100
+  impact_latency_ms: 300
+  loss_fraction: 1
+  throughput_degradation: 1
+crypto_profiles:
+  # Illustrative defaults used only by analytic backend. Replace with measured results from benchmark import.
+  classical:
+    handshake_ms: 4.0
+    energy_mj: 5.0
+    expansion: 0.05
+    security_strength: 0.08
+  pqc:
+    handshake_ms: 7.5
+    energy_mj: 9.0
+    expansion: 0.42
+    security_strength: 0.90
+  hybrid:
+    handshake_ms: 11.0
+    energy_mj: 14.0
+    expansion: 0.62
+    security_strength: 0.94

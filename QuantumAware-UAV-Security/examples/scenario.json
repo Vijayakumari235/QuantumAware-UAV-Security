@@ -1,0 +1,1 @@
+{"topology":"mesh","mobility":"random_waypoint","traffic":"telemetry","crypto":"hybrid","threat":"dos","intensity":"medium","seed":101,"swarm_size":10,"routing":"aodv"}

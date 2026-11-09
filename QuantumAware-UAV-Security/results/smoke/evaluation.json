@@ -1,0 +1,193 @@
+{
+  "n_runs": 48,
+  "positive_outcomes": 13,
+  "backend_types": [
+    "analytical"
+  ],
+  "comparators": {
+    "qos_only": {
+      "auroc": 0.9868131868131869,
+      "auprc": 0.9701923076923077,
+      "spearman_severity": 0.7563583686594707,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.9572303921568628,
+        1.0
+      ]
+    },
+    "cryptographic_only": {
+      "auroc": 0.6406593406593407,
+      "auprc": 0.40040560749134624,
+      "spearman_severity": 0.21192492008495917,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.4858435708435709,
+        0.7917234848484849
+      ]
+    },
+    "static_graph": {
+      "auroc": 0.8813186813186813,
+      "auprc": 0.6716530208433042,
+      "spearman_severity": 0.5858107733275113,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.7559663865546218,
+        0.9631860902255639
+      ]
+    },
+    "temporal_graph": {
+      "auroc": 0.865934065934066,
+      "auprc": 0.7486306477685789,
+      "spearman_severity": 0.5175302944997296,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.7231341220698806,
+        0.9734620976526811
+      ]
+    },
+    "crs": {
+      "auroc": 0.6461538461538462,
+      "auprc": 0.44652165330898363,
+      "spearman_severity": 0.16064216987319527,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.4341102489128805,
+        0.815751953125
+      ]
+    }
+  },
+  "ablations": {
+    "attack_likelihood": {
+      "auroc": 0.41098901098901097,
+      "auprc": 0.26546790482527605,
+      "spearman_severity": -0.16755477454138898,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.20638001638001638,
+        0.61701369091613
+      ]
+    },
+    "mission_impact": {
+      "auroc": 0.5560439560439561,
+      "auprc": 0.3352831493980759,
+      "spearman_severity": 0.03415555210787039,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.35915306915306916,
+        0.7366483516483517
+      ]
+    },
+    "inverse_detectability": {
+      "auroc": 0.9076923076923077,
+      "auprc": 0.8135968219946548,
+      "spearman_severity": 0.6184098743433118,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.8319036845507434,
+        0.9772283272283273
+      ]
+    },
+    "crypto_cost_security": {
+      "auroc": 0.4967032967032967,
+      "auprc": 0.4352487271502912,
+      "spearman_severity": -0.09149800341092108,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.2985994853670635,
+        0.7030326704545454
+      ]
+    },
+    "graph_vulnerability": {
+      "auroc": 0.5978021978021978,
+      "auprc": 0.37532234996359226,
+      "spearman_severity": 0.08705500476274283,
+      "n": 48,
+      "positive": 13,
+      "auroc_ci95": [
+        0.383270202020202,
+        0.7911739011739012
+      ]
+    }
+  },
+  "paired_comparisons": [
+    {
+      "candidate": "crs",
+      "baseline": "qos_only",
+      "auroc_diff": -0.34065934065934067,
+      "ci95": [
+        -0.5540456833139759,
+        -0.16686104910714278
+      ],
+      "p_raw": 0.009950248756218905,
+      "p_holm": 0.03980099502487562,
+      "bootstrap_samples": 200
+    },
+    {
+      "candidate": "crs",
+      "baseline": "cryptographic_only",
+      "auroc_diff": 0.005494505494505475,
+      "ci95": [
+        -0.12547186609686609,
+        0.15778133903133915
+      ],
+      "p_raw": 0.9850746268656716,
+      "p_holm": 0.9850746268656716,
+      "bootstrap_samples": 200
+    },
+    {
+      "candidate": "crs",
+      "baseline": "static_graph",
+      "auroc_diff": -0.2351648351648351,
+      "ci95": [
+        -0.4427307152535811,
+        -0.07686868686868681
+      ],
+      "p_raw": 0.01990049751243781,
+      "p_holm": 0.05970149253731343,
+      "bootstrap_samples": 200
+    },
+    {
+      "candidate": "crs",
+      "baseline": "temporal_graph",
+      "auroc_diff": -0.21978021978021978,
+      "ci95": [
+        -0.4257946134868421,
+        -0.07665847665847665
+      ],
+      "p_raw": 0.01990049751243781,
+      "p_holm": 0.05970149253731343,
+      "bootstrap_samples": 200
+    }
+  ],
+  "risk_strata": {
+    "Low": {
+      "n": 33,
+      "observed_failure_rate": 0.15151515151515152
+    },
+    "Medium": {
+      "n": 15,
+      "observed_failure_rate": 0.5333333333333333
+    },
+    "High": {
+      "n": 0,
+      "observed_failure_rate": null
+    }
+  },
+  "crs_variability": {
+    "mean": 0.34129367726627463,
+    "sd": 0.04559989438109429,
+    "ci95": [
+      0.3280528481653942,
+      0.35453450636715506
+    ]
+  }
+}
