@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1451574206.svg)](https://doi.org/10.5281/zenodo.24088247)
 # Quantum-Aware Graph-Based UAV Security Risk Assessment Framework
 
 Quantum-Aware Graph-Based Threat and Vulnerability Assessment for UAV Networks under Post-Quantum Cryptographic Transition
