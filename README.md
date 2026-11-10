@@ -130,7 +130,6 @@ This executes a smaller analytical demonstration comprising 48 runs across attac
 python run.py import --config configs/default.yaml --scenario examples/scenario.json --csv /path/to/real_snapshots.csv --output results/external
 ```
 
-The external trace format and integration requirements are documented in `docs/EXTERNAL_INTEGRATION.md`.
 
 ## Experimental Design
 
@@ -204,7 +203,7 @@ Default cryptographic overhead profiles are illustrative rather than experimenta
 
 The generated demonstration data and figures are intended for implementation verification and should not be reported as experimentally validated NS-3/SITL findings.
 
-For detailed implementation status and outstanding experimental requirements, refer to `IMPLEMENTATION_STATUS.md`.
+
 
 ## Research Applications
 
@@ -222,11 +221,7 @@ If you use this implementation in academic research, please cite the associated 
 
 *Quantum-Aware Graph-Based Threat and Vulnerability Assessment for UAV Networks under Post-Quantum Cryptographic Transition.*
 
-Full bibliographic details will be added after publication.
 
-## License
-
-A license has not yet been specified for this repository. Usage and redistribution permissions should be established before public release.
 
 ## Acknowledgment
 
