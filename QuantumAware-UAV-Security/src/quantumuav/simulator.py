@@ -1,10 +1,3 @@
-"""Self-contained analytical/event-level UAV network simulator.
-
-IMPORTANT: This is a synthetic/network-analytical simulator, not NS-3 or ArduPilot SITL.
-Network link availability, routing, packet QoS and navigation perturbations are approximations.
-It supplies a fully executable backend to test the proposed graph/risk methodology and
-must not be reported as real NS-3/SITL experimental measurements.
-"""
 from __future__ import annotations
 import math
 import numpy as np
