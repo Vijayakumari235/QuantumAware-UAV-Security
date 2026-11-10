@@ -75,7 +75,7 @@ The resulting score ranges from 0 to 1 and is interpreted as Low, Medium, or Hig
 Clone the GitHub repository and navigate to the project directory.
 
 ```bash
-git clone https://github.com/vijaya-kumar235/QuantumAware-UAV-Security.git
+git clone https://github.com/Vijayakumari235/QuantumAware-UAV-Security.git
 
 cd QuantumAware-UAV-Security
 ```
