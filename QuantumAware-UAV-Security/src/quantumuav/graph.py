@@ -12,11 +12,7 @@ def _norm_values(d):
 
 
 def _minimum_cuts(graph, u, v):
-    """Deterministic unit-capacity edge and internally node-disjoint pair cuts.
-    NetworkX minimum_cut is deterministic for insertion-sorted edge order. Node split avoids
-    treating endpoints as removable internal nodes. Direct adjacent node-pair cuts can be
-    undefined for internal node separators; return an empty node cut in that case.
-    """
+    
     g=nx.Graph();g.add_nodes_from(sorted(graph.nodes()))
     g.add_edges_from(sorted(tuple(sorted((a,b))) for a,b in graph.edges()))
     if not nx.has_path(g,u,v):return set(),set()
